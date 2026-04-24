@@ -1,0 +1,12 @@
+device: cuda
+precision: mixed_float16
+training:
+  batch_size: 8
+  gradient_accumulation_steps: 4
+  epochs_quick_check: 3
+  epochs_poc: 15
+  epochs_report: 30
+expected_wall_time:
+  quick_check: "5-15 minutes"
+  proof_of_concept: "45-120 minutes"
+  report_run: "2-5 hours"

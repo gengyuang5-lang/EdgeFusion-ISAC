@@ -1,0 +1,15 @@
+project_limit_mb: 1536
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  checkpoints: outputs/checkpoints
+  reports: outputs/reports
+limits_mb:
+  raw_data: 850
+  processed_data: 420
+  checkpoints: 120
+  reports: 80
+  code_and_misc: 66
+download_policy:
+  allow_full_datasets: false
+  allow_samples_only: true

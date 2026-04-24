@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Third-party datasets are reproducible via scripts and should not be committed.
+data/raw/
+data/processed/
+deepmimo_scenarios/
+
+# Keep small experiment reports.
+outputs/checkpoints/
+!outputs/reports/
+!outputs/reports/*.json

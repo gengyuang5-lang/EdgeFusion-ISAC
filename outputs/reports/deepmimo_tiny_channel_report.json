@@ -1,0 +1,12 @@
+{
+  "dataset": "DeepMIMO asu_campus_3p5",
+  "task": "predict normalized best-path channel quality from receiver position",
+  "samples": 4000,
+  "quality_mae": 0.062089234590530396,
+  "quality_rmse": 0.08493862301111221,
+  "fixed_policy_ser_proxy": 0.3904067277908325,
+  "adaptive_policy_ser_proxy": 0.3268422782421112,
+  "relative_ser_proxy_reduction_percent": 16.281596863970314,
+  "supports_channel_aware_semantic_slicing": true,
+  "caveat": "SER is a proxy computed from DeepMIMO ray-tracing channel quality, not an over-the-air measured semantic error rate."
+}

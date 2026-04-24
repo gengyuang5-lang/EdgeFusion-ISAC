@@ -1,0 +1,28 @@
+{
+  "dataset": "RADIATE tiny_foggy official sample",
+  "task": "frame-level object-count regression from aligned camera/radar image features",
+  "frames": 18,
+  "label_min": 2.0,
+  "label_max": 3.0,
+  "label_mean": 2.3333332538604736,
+  "results": [
+    {
+      "name": "camera",
+      "test_mae": 0.17560236155986786,
+      "test_rmse": 0.21942152082920074
+    },
+    {
+      "name": "radar",
+      "test_mae": 0.5657290816307068,
+      "test_rmse": 0.6419825553894043
+    },
+    {
+      "name": "fusion",
+      "test_mae": 0.4015786945819855,
+      "test_rmse": 0.4352795481681824
+    }
+  ],
+  "best_modality": "camera",
+  "supports_fusion_on_this_sample": false,
+  "caveat": "This is a tiny single-fog-sequence proof-of-concept, not a statistically strong validation."
+}

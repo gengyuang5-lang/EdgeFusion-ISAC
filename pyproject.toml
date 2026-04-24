@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgefusion-isac"
+version = "0.1.0"
+description = "Small-scale ISAC multimodal fusion proof-of-concept experiments."
+requires-python = ">=3.10"
+dependencies = ["torch", "numpy", "pillow", "deepmimo"]
